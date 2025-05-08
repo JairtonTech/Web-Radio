@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Rádio JF</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Web Rádio JF</h1>
+
+        <div class="genre-container">
+            <label for="genreSelect">Escolha o gênero:</label>
+            <select id="genreSelect">
+                <option value="variada">Variada</option>
+                <option value="brega">Brega</option>
+            </select>
+        </div>
+
+        <div id="nowPlaying">Tocando agora: Nenhuma música</div>
+
+        <div class="controls">
+            <button id="playPauseBtn">▶️ Play</button>
+            <input type="range" id="volumeControl" min="0" max="1" step="0.01" value="0.7">
+        </div>
+
+        <div class="visualizer">
+            <div class="bar" style="--i:0;"></div>
+            <div class="bar" style="--i:1;"></div>
+            <div class="bar" style="--i:2;"></div>
+            <div class="bar" style="--i:3;"></div>
+            <div class="bar" style="--i:4;"></div>
+        </div>
+
+        <div class="station-info">128kbps • 44.1kHz</div>
+
+        <audio id="audioPlayer"></audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
