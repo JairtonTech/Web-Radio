@@ -1,13 +1,14 @@
 const musicDatabase = {
     brega: [
-        { titulo: "01", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" },
-        { titulo: "04", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3" },
-        { titulo: "07", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3" }
+        { titulo: "Bregão do JaJa", url: "https://webradio-jf.s3.sa-east-1.amazonaws.com/brega/01+Tudo+Fizeram+Para+Me+Derrotar.mp3" },
+        { titulo: "Bregão do JaJa", url: "https://webradio-jf.s3.sa-east-1.amazonaws.com/brega/03-Sarah.mp3" }
     ],
     variada: [
-        { titulo: "Batida Eletrônica", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" },
-        { titulo: "Synthwave", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3" },
-        { titulo: "Techno Beat", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3" }
+        { titulo: "construção", url: "https://webradio-jf.s3.sa-east-1.amazonaws.com/pop/Michael+Jackson.mp3" },
+        { titulo: "construção", url: "https://webradio-jf.s3.sa-east-1.amazonaws.com/pop/Peter+Schilling.mp3" },
+        { titulo: "construção", url: "https://webradio-jf.s3.sa-east-1.amazonaws.com/pop/Milli+Vanilli.mp3" },
+        { titulo: "construção", url: "https://webradio-jf.s3.sa-east-1.amazonaws.com/pop/Rockwell.mp3" },
+        { titulo: "construção", url: "https://webradio-jf.s3.sa-east-1.amazonaws.com/pop/Shangri-La+Frontier+2+season.mp3" }
     ]
 };
 
