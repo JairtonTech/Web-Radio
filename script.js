@@ -3,7 +3,7 @@ const musicDatabase = {
         { titulo: "Bregão do JaJa", url: "https://webradio-jf.s3.sa-east-1.amazonaws.com/brega/01+Tudo+Fizeram+Para+Me+Derrotar.mp3" },
         { titulo: "Bregão do JaJa", url: "https://webradio-jf.s3.sa-east-1.amazonaws.com/brega/03-Sarah.mp3" }
     ],
-    variada: [
+    Pop: [
         { titulo: "construção", url: "https://webradio-jf.s3.sa-east-1.amazonaws.com/pop/Michael+Jackson.mp3" },
         { titulo: "construção", url: "https://webradio-jf.s3.sa-east-1.amazonaws.com/pop/Peter+Schilling.mp3" },
         { titulo: "construção", url: "https://webradio-jf.s3.sa-east-1.amazonaws.com/pop/Milli+Vanilli.mp3" },
